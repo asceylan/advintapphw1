@@ -1,5 +1,6 @@
 
 
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,7 +23,7 @@ body {
     background-color: gray;
     margin-bottom: 20px;
     overflow: hidden;
-    border: solid gray;
+    border: 1px solid black;
   }
   
   
@@ -64,9 +65,9 @@ body {
      font-size: 16px;
    
    }
-   
+   .brand-link {font-size: 32px;}
   @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(.brand-link) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
@@ -118,4 +119,5 @@ body {
     background-color: gray;
     color: black;
     text-align: center;
+    border: 1px solid black ;
   }
