@@ -104,6 +104,16 @@ body {
       display: block;
       text-align: left;
     }
+    .footer {
+        position: inherit;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: gray;
+        color: black;
+        text-align: center;
+        border: 1px solid black ;
+      }
   }
   @media screen and (min-width: 1024px) {
     .topnav.responsive {position: relative;}
@@ -123,15 +133,15 @@ body {
     main {
        column-count: 3;
     }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: gray;
+        color: black;
+        text-align: center;
+        border: 1px solid black ;
+      }
   }
   
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: gray;
-    color: black;
-    text-align: center;
-    border: 1px solid black ;
-  }
